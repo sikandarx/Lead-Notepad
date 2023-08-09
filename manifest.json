@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Leads Notepad",
+    "permissions": ["activeTab", "tabs"],
+    "action": {
+        "default_popup": "main.html",
+        "default_icon": "icon.png"
+    }
+}

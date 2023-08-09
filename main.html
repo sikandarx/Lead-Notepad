@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Varela Round' rel='stylesheet'>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <h1 class="text-center font-weight-heavy my-3">Leads Notepad</h1>
+        <div class="collections mb-3" id="collections">
+            <h5>Collections:</h5>
+            <div class="collection my-2" id="collection">
+                Collection 1
+            </div>
+            <button class="btn btn-secondary" id="btn_add_collection">Add</button>
+        </div>
+        <div class="collection_modal mb-3" id="collection_modal">
+            <button class="btn btn-primary" id="back">Back</button><br>
+            This is the description for collections.
+            <div class="lead" id="lead">
+                Lead 1
+            </div>
+            <button class="btn btn-secondary" id="btn_add_lead">Add</button>
+        </div>
+        <div class="add_collection mb-3" id="add_collection">
+            Fill information of the new collection.
+            <button class="btn btn-danger" id="cancel_add_collection">Cancel</button>
+        </div>
+        <div class="add_lead mb-3" id="add_lead">
+            Fill information of the new lead.
+            <br><button class="btn btn-danger" id="cancel_add_lead">Cancel</button>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
